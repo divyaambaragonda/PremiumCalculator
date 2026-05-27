@@ -37,6 +37,10 @@ PremiumCalculatorSolution/
 ├── PremiumCalculator.Infrastructure/   # Repositories and services
 │
 └── PremiumCalculator.Tests/            # Unit test project
+```
+
+---
+
 # Features Implemented
 ## Premium Calculation
 The application calculates monthly premium based on the formula provided in the assessment.
