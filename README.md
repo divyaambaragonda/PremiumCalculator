@@ -27,6 +27,7 @@ The goal of this project was not only to implement the premium calculation logic
 # Project Structure
 PremiumCalculatorSolution
 │
+
 ├── PremiumCalculator.Web
 │   Frontend MVC application
 │
