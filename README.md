@@ -25,7 +25,7 @@ The goal of this project was not only to implement the premium calculation logic
 - Moq
 - Serilog
 # Project Structure
-
+```text
 PremiumCalculatorSolution/
 │
 ├── PremiumCalculator.Web/              # Frontend MVC application
