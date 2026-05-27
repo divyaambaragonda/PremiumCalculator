@@ -25,24 +25,18 @@ The goal of this project was not only to implement the premium calculation logic
 - Moq
 - Serilog
 # Project Structure
-PremiumCalculatorSolution
-│
 
-├── PremiumCalculator.Web
-│   Frontend MVC application
+PremiumCalculatorSolution/
 │
-├── PremiumCalculator.API
-│   Backend Web API
+├── PremiumCalculator.Web/              # Frontend MVC application
 │
-├── PremiumCalculator.Core
-│   Models, interfaces, DTOs
+├── PremiumCalculator.API/              # Backend Web API
 │
-├── PremiumCalculator.Infrastructure
-│   Repositories and services
+├── PremiumCalculator.Core/             # Models, interfaces, DTOs
 │
-└── PremiumCalculator.Tests
-    Unit test project
-
+├── PremiumCalculator.Infrastructure/   # Repositories and services
+│
+└── PremiumCalculator.Tests/            # Unit test project
 # Features Implemented
 ## Premium Calculation
 The application calculates monthly premium based on the formula provided in the assessment.
